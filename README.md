@@ -1,2 +1,2 @@
-# Responsive-layout
+# Responsive Layout
  Responsive-layout
