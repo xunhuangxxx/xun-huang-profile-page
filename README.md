@@ -1,2 +1,2 @@
-# Responsive Layout
- Responsive-layout
+# Xun's Profile Page
+Hi, I'm Xun Huang, a Front-End Web Developer based in Boston Massachusetts, I'm passionate about building websites and Apps and all kinds of technologies...
