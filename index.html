@@ -1,7 +1,7 @@
 <!DOCTYPE html>
  <html lang="en">
   <head>
-    <title>Responsive Layout</title>
+    <title>Xun Huang's personal website</title>
     <link rel="stylesheet" href="css/styles.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,21 +15,37 @@
 
     <header>
       <div id="heading">
-        <h2>Xun Huang</h2>
+        <h2>Welcome!</h2>
         <nav class="nav">
           <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="#portfolio">PORTFOLIO</a></li>
             <li><a href="#contact">CONTACT</a></li>
-            <li><a href="#skills">SKILLS</a></li>
+
           </ul>
         </nav>
       </div>
       <div id="profile">
-        <img id="profile-img" src="images/responsive-layout-profile.png" alt="a student profile image">
-        <p>
-          Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!
-        </p>
+        <img id="profile-img" src="images/image-xun.jpg" alt="xun's profile image">
+        <div class="basic-info">
+          <p>
+            Hello world! I'm Xun Huang, a Front-End Web Developer based in Boston Massachusetts, I'm passionate about building websites and Apps and all kinds of technologies,
+            also I'm studing advanced/new programming languages to sharpen my skills <br/>
+            Here are a few technologies I've been working with:
+          </p>
+          <ol class="skills">
+            <li>JavaScript (React, Node.js, jQuery)</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Express.js</li>
+            <li>Sequelize.js</li>
+            <li>SQL</li>
+            <li>PUG</li>            
+          </ol>      
+        </div>
+
+   
+
       </div>
    </header>
 
@@ -39,48 +55,42 @@
      </div>
 
      <div class="project">
-       <img src="images/portfolio-1.png" alt="picture of marketing page">
-       <h4>Marketing Page</h4>
-       <p>This project shows a front page of a marketing website meant for a specific business I'm interested in.</p>
+       <img class="grow" src="images/word-guessing.png" alt="picture of word guessing game">
+       <h4><a href="https://github.com/xunhuangxxx/word_guessing_game" target="_blank">Word Guessing Game</a></h4>
+       <p> This project let the users guess the word until all the hearts turn to grey. The letters in your guess change color to give you hints.</p>
      </div>
 
      <div class="project">
-       <img src="images/portfolio-2.png" alt="picture of search page">
-       <h4>Search Page</h4>
-       <p>This project searches through a specific database to find information thatthe user is typing to look up.</p>
+       <img class="grow" src="images/course.png" alt="picture of online course admin system">
+       <h4><a href="https://github.com/xunhuangxxx/word_guessing_game" target="_blank">Online Course Admin System</a></h4>
+       <p> This project is for admin users to manage the courses</p>
      </div>
 
      <div class="project">
-       <img src="images/portfolio-3.png" alt="picture of travel app">
-       <h4>Travel App</h4>
-       <p>This project compares travel time based on different transportation methods and tells you the best one.</p>
+       <img class="grow" src="images/search-page.png" alt="picture of search page">
+       <h4><a href="https://github.com/xunhuangxxx/search_page" target="_blank">Search Page</a></h4>
+       <p>This project searches through a completed/imcompleted name to find the person that the user is typing to look up.</p>
+     </div>
+
+
+     <div class="project">
+       <img class="grow" src="images/registration-form.png" alt="picture of registration">
+       <h4><a href="https://github.com/xunhuangxxx/interactive_form" target="_blank">Registration Form</a></h4>
+       <p>This project is a registration form that shows error message immediately when the format is incorrect, and hide error message when user corrected it </p>
      </div>
 
      <div class="project">
-       <img src="images/portfolio-4.png" alt="picture of map project">
-       <h4>Map of Favorite Spot</h4>
-       <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-youself walking tour.</p>
+       <img class="grow" src="images/photo-gallery.png" alt="picture of photo gallery">
+       <h4><a href="https://github.com/xunhuangxxx/photo-gallery-app" target="_blank">Photo Gallery</a></h4>
+       <p>This project shows pictures to the viewer and allows them to easily search through key words.</p>
      </div>
 
      <div class="project">
-       <img src="images/portfolio-5.png" alt="picture of photo gallery">
-       <h4>Photo Gallery</h4>
-       <p>This project shows pictures from a recent trip to the viewer and allows them to easily nevigate through photos.</p>
+       <img class="grow" src="images/quote.png" alt="picture of quoto generator">
+       <h4><a href="https://github.com/xunhuangxxx/random_quote_generator" target="_blank">Random Quote Generator</a></h4>
+       <p>This project generates quote automatically, also it has a button for user to get the next random quote</p>
      </div>
 
-     <div class="project">
-       <img src="images/portfolio-6.png" alt="picture of calculator">
-       <h4>Calculator</h4>
-       <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-     </div>
-
-     <div id="skills">
-       <h4>Skills</h4>
-       <img src="images/skills.jpeg" alt="picture of skills">
-       <p>
-         this project shows how I design a website with all my skills.
-       </p>
-     </div>
    </main>
 
    <footer>
@@ -88,8 +98,8 @@
       <h5>CONTACT</h5>
       <p>If you're interested in chatting or want more information what I've been working on, I'd love to hear from you!</p>
       <ul>
-        <li>Phone&nbsp;&nbsp;<span>+1(111)555-1234</span></li>
-        <li>Email&nbsp;&nbsp;<span>email@yoursite.com</span></li>
+        <li>Phone&nbsp;&nbsp;<span>+1(617)893-3920</span></li>
+        <li>Email&nbsp;&nbsp;<span>xunhuangxxx@gmail.com</span></li>
       </ul>
     </div>
 
@@ -98,8 +108,7 @@
       <h6><a class="bottom-nav" href="index.html">HOME</a></h6>
       <h6><a class="bottom-nav" href="#portfolio">PORTFOLIO</a></h6>
       <h6><a class="bottom-nav" href="#contact">CONTACT</a></h6>
-      <h6><a class="bottom-nav" href="#skills">SKILLS</a></h6>
-
+      
       <h6><a id="backtotop" href="index.html">BACK TO TOP</a></h6>
     </div>
    </footer>

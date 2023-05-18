@@ -28,23 +28,33 @@ nav {
 header ul li{
   background-color: #E6E6FA;
   font-size: 16px;
-  margin-bottom: 4px;
-  padding: 10px;
+  padding: 5px;
+  margin: 10px;
 }
 
 header p {
+  display: flex;
   font-size: 3.5vw;
   padding: 10px 20px;
-  color: #776699;
+  color: #685887;
 }
 
 header h5 {
   font-size: 15px;
 }
 
-ul {
-  list-style: none;
+.skills {
   padding-left: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  color: #7c7186;
+}
+
+.skills li {
+  list-style-type: square;
+  margin: 5px;
 }
 
 main {
@@ -53,13 +63,35 @@ main {
   font-weight: 300;
 }
 
-main p {
-  font-size: 15px;
-  padding: 0 30px 30px;
+div.project {
+  align-items:start;
 }
+
+#profile {
+  display: flex;
+}
+
+div.languages {
+  font-size: 20px;
+}
+
+.skills{
+  font-size: 20px;
+  font-size: 16px;
+}
+
 .project img{
-  width:90vw;
+  width:260px; 
+  
 }
+
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+  .grow:hover { 
+  transform: scale(1.1); 
+  }
 
 #skills {
   margin:10px auto;
@@ -135,20 +167,18 @@ a:hover {
 }
   header p, footer p, footer ul {
   font-size: 20px;
+  /* font-weight: unset; */
   }
   header p {
     text-align: left;
     padding: 0px;
   }
 
-  #profile {
-    display: flex;
-    flex-direction: row-reverse;
-  }
+ 
   #profile-img {
     width: 40%;
-    padding:0 20px;
-
+    height: 40%;
+    padding:30px 20px;
   }
 
   .main  {
@@ -166,16 +196,15 @@ a:hover {
   }
 
   .project {
-    margin: 0px 3px;
+    margin: 20px 10px;
     width: 350px;
-    height: 460px;
+    height: 380px;
     display: inline-block;
-
+    vertical-align: middle;
+  
   }
 
-  .project img {
-    width: 100%;
-  }
+ 
 
   footer li, footer p {
     font-weight: 100;
@@ -224,6 +253,7 @@ a:hover {
  }
  .project {
    width: 310px;
+   vertical-align: middle;
  }
 
 }
