@@ -11,7 +11,7 @@ body {
 }
 
 header {
- font-family: 'Readex Pro', serif;
+ font-family: 'Kanit', serif;
  /* color: azure; */
  background-color: rgb(43 41 48);
 }
@@ -51,6 +51,7 @@ header h5 {
   flex-wrap: nowrap;
   flex-direction: column;
   color: #c1ddbb;
+  font-family: 'Kanit';
 }
 
 .skills li {
@@ -60,8 +61,8 @@ header h5 {
 
 main {
   text-align: center;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
 }
 
 div.project {
@@ -110,8 +111,8 @@ a{
 footer {
   margin:10px 0px;
   overflow-wrap: break-word;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
   color: #c1ddbb;
   /* background-color: black; */
   background-color: rgb(43 41 48);
@@ -189,11 +190,11 @@ a:hover {
   }
 
   .main  {
-    color:dimgrey;
+    color: #43554f;
   }
 
   main p {
-    font-size: 15px;
+    font-size: 16px;
     padding: 10px;
   }
 
